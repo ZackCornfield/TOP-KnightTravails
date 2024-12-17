@@ -38,14 +38,6 @@ function Node(pos, path) {
             }
         });
     }
-
-    console.log(
-      `=> You made it in ${currentNode.path.length - 1} moves!  Here's your path:`
-    );
-    currentNode.path.forEach((pos) => {
-      console.log(pos);
-    });
-
   }
 
   knightMoves([3, 3], [7, 1]);
